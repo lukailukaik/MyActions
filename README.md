@@ -1,3 +1,23 @@
+## 特别声明: 
+
+* 本仓库发布的MyActions项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+
+* 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
+
+sazs34对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, sazs34 对于由此引起的任何隐私泄漏或其他后果概不负责.
+
+* 请勿将MyActions项目的任何内容用于商业或非法目的，否则后果自负.
+
+* 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
+
+* 任何以任何方式查看此项目的人或直接或间接使用该MyActions项目的任何脚本的使用者都应仔细阅读此声明。sazs34 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或MyActions项目的规则，则视为您已接受此免责声明.
+
+ **您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
+> ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
+
+
 ![sazs34’s github stats](https://github-readme-stats.vercel.app/api?username=sazs34&show_icons=true&theme=vue)
 
 # MyActions
@@ -47,17 +67,17 @@ FORK后，如果actions没有定时执行，请随便找个文件，加个空格
 
 | Name                    |   归属   | 属性   | 说明                                                         |
 | ----------------------- | :------: | ------ | ------------------------------------------------------------ |
-| `JD_COOKIE`             |   京东   | 必须   | 京东cookie,具体获取参考[lxk0301的获取教程](https://github.com/lxk0301/scripts/blob/master/githubAction.md#%E4%BA%AC%E4%B8%9Ccookie)或[点击直达](#Cookie获取和配置) |
+| `JD_COOKIE`             |   京东   | 必须   | 京东cookie,具体获取参考[lxk0301的获取教程](https://github.com/lxk0301/jd_scripts/blob/master/githubAction.md#%E4%BA%AC%E4%B8%9Ccookie)或[点击直达](#Cookie获取和配置) |
 | `JD_DEBUG`              |   脚本打印log   | 非必须   | 运行脚本时，是否显示log,默认显示。改成false表示不显示，注重隐私的人可以在设置secret -> `Name:JD_DEBUG,Value:false` |
 
 ##### 互助码系列
 
 | Name                    |   归属   | 属性   | 说明                                                         |
 | ----------------------- | :------: | ------ | ------------------------------------------------------------ |
-| `FruitShareCodes`       |  东东农场互助码  | 非必须 | 填写规则请看 [jdFruitShareCodes.js](https://github.com/lxk0301/scripts/blob/master/jdFruitShareCodes.js) 里面的说明 |
-| `PETSHARECODES`         |  东东萌宠互助码  | 非必须 | 填写规则请看 [jdPetShareCodes.js](https://github.com/lxk0301/scripts/blob/master/jdPetShareCodes.js) 里面的说明 |
-| `PLANT_BEAN_SHARECODES` |  种豆得豆互助码  | 非必须 | 填写规则请看 [jdPlantBeanShareCodes.js](https://github.com/lxk0301/scripts/blob/master/jdPlantBeanShareCodes.js) 里面的说明 |
-| `SUPERMARKET_SHARECODES`|  京小超商圈互助码  | 非必须 | 填写规则请看 [jdSuperMarketShareCodes.js](https://github.com/lxk0301/scripts/blob/master/jdSuperMarketShareCodes.js) 或见下方`互助码的填写规则` |
+| `FruitShareCodes`       |  东东农场互助码  | 非必须 | 填写规则请看 [jdFruitShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdFruitShareCodes.js) 里面的说明 |
+| `PETSHARECODES`         |  东东萌宠互助码  | 非必须 | 填写规则请看 [jdPetShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdPetShareCodes.js) 里面的说明 |
+| `PLANT_BEAN_SHARECODES` |  种豆得豆互助码  | 非必须 | 填写规则请看 [jdPlantBeanShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdPlantBeanShareCodes.js) 里面的说明 |
+| `SUPERMARKET_SHARECODES`|  京小超商圈互助码  | 非必须 | 填写规则请看 [jdSuperMarketShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdSuperMarketShareCodes.js) 或见下方`互助码的填写规则` |
 
 ##### 其它控制
 
@@ -144,7 +164,7 @@ FORK后，如果actions没有定时执行，请随便找个文件，加个空格
 
 ### Cookie获取和配置
 
-> 具体如何取cookie如何配置,可参考 https://github.com/lxk0301/scripts/issues/8#issuecomment-675837338
+> 具体如何取cookie如何配置,可参考 https://github.com/lxk0301/jd_scripts/issues/8#issuecomment-675837338
 
 ```
 
